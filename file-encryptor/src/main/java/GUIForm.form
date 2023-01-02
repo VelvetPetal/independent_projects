@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="5" vgap="5">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="1f9d3">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <vspacer id="8b63b">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <vspacer id="50de0">
+        <constraints border-constraint="West"/>
+      </vspacer>
+      <grid id="a283d" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <foreground color="-4473935"/>
+          <preferredSize width="600" height="60"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="1431e" layout-manager="FlowLayout" hgap="5" vgap="60" flow-align="1">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <preferredSize width="450" height="150"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <hspacer id="91efd">
+                <constraints/>
+              </hspacer>
+              <grid id="93c9d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints/>
+                <properties>
+                  <preferredSize width="450" height="150"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="d5497" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <preferredSize width="440" height="40"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="35ee9" class="javax.swing.JTextField" binding="filePath">
+                        <constraints/>
+                        <properties>
+                          <editable value="false"/>
+                          <preferredSize width="425" height="30"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="c1e64" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                    <constraints/>
+                    <properties>
+                      <preferredSize width="440" height="60"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <grid id="204bd" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="215" height="40"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="62712" class="javax.swing.JButton" binding="selectButton">
+                            <constraints/>
+                            <properties>
+                              <preferredSize width="200" height="30"/>
+                              <text value="Выберите файл или папку"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                      <grid id="4e656" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+                        <constraints/>
+                        <properties>
+                          <preferredSize width="215" height="40"/>
+                        </properties>
+                        <border type="none"/>
+                        <children>
+                          <component id="c15bb" class="javax.swing.JButton" binding="actionButton">
+                            <constraints/>
+                            <properties>
+                              <preferredSize width="200" height="30"/>
+                              <text value="Button"/>
+                              <visible value="false"/>
+                            </properties>
+                          </component>
+                        </children>
+                      </grid>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <hspacer id="a7ac9">
+        <constraints border-constraint="South"/>
+      </hspacer>
+    </children>
+  </grid>
+</form>
